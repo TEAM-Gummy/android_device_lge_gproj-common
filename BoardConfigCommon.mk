@@ -104,3 +104,5 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 BOARD_RIL_CLASS := ../../../device/lge/gproj-common/ril/
 
 BOARD_HARDWARE_CLASS := device/lge/gproj-common/cmhw/
+# Disable FM
+AUDIO_FEATURE_DISABLED_FM := true
